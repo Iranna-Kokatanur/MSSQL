@@ -1,0 +1,44 @@
+DB: -> Organized collection of data stored in electronic format
+
+DBMS -> It is system software used to create and manages the databases.
+
+Types of database architecture:
+
+1) File server architecture - No one can access it. If you share it, they can access but If you made any changes to it. Then they can't until you share.
+2) Client Server Architecture - Everyone can access it. E.g : IRCTC
+
+SQL : It is structured Query Language used to access and manipulate the database.
+
+Categories of SQL Commands:
+
+1) Data Query Language - select
+2) Data definition Language - Create, Alter, drop
+3) Data Manipulation Language - Insert, Update, Delete
+4) Data Control Language - grant, revoke
+
+
+
+1. Create Database: create database [databasename]
+2. Use the existing databases: use [databasename]
+3. Delete a database: drop database [databasename]
+
+Primary key -> not null + unique constraints
+
+create table :
+
+create table(
+colum1 datatype,
+------
+
+PRIMARY KEY (column)
+);
+
+Insert: Insert into table_name values( v1,  v2, ----, vn);
+
+Select: select column1,------- from table_name
+
+Distinct: select Distinct column1 from table_name
+
+** If you want to add the condition use the WHERE clause
+
+** AND OR NOT operators
